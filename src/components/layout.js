@@ -44,12 +44,26 @@ function Layout({ children }) {
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           rel="stylesheet"
+          as="style"
+          crossorigin="anonymous"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+          as="style"
+          crossorigin="anonymous"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          as="style"
+          crossorigin="anonymous"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,700&family=Roboto:wght@400;700&display=swap"
           rel="stylesheet"
+          as="style"
+          crossorigin="anonymous"
         />
       </Helmet>
 

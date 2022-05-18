@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styled from "styled-components"
 import Navegacion from "./nav"
 
@@ -18,6 +19,12 @@ const Container = styled.div`
   }
 `
 
+const EnlaceHome = styled(Link)`
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+`
 const Title = styled.h1`
   color: #fff;
   text-align: center;
@@ -27,7 +34,9 @@ function Header() {
   return (
     <HeaderStyle>
       <Container>
-        <Title>Hotel Gatsby</Title>
+        <EnlaceHome to="/">
+          <Title>Hotel Gatsby</Title>
+        </EnlaceHome>
         <Navegacion />
       </Container>
     </HeaderStyle>

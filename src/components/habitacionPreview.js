@@ -38,8 +38,7 @@ function HabitacionPreview({ habitacion }) {
   const { contenido, imagen, titulo, slug } = habitacion
   return (
     <Container>
-      <GatsbyImage image={imagen} alt={`titulo`} />
-
+      <GatsbyImage image={imagen} alt={titulo} />
       <ContainerHabitaciones>
         <h3>{titulo}</h3>
         <p>{contenido}</p>
